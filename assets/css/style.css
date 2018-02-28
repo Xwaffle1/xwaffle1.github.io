@@ -1,0 +1,60 @@
+.slot {
+    z-index: 1;
+    background: url("../slot.png") no-repeat;
+    margin: .5em;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+}
+
+.slotImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+.battlestate {
+    font-size: 12px;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    color: #999;
+}
+
+#searchData {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.trade-offer {
+    height: 10em;
+    background-color: rgba(153, 153, 153, 0.4);
+    border: solid #5e5e5e;
+}
+
+.trade-offer-list {
+
+}
+
+.trade-offer-has {
+    background-color: white;
+    float: left;
+}
+
+.trade-offer-wants {
+    background-color: #ffff00;
+    float: right;
+}
+
+#mouseover_message_box {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    max-width: 200px;
+}
